@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Jira branch name creator",
-  "description": "Create a branch name formatted to include the issue type, issue numer and title",
+  "description": "Create a branch name formatted to include the issue type, issue number and title",
   "version": "1.0",
   "content_scripts": [
     {
