@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Jira branch name creator",
+  "description": "Create a branch name formatted to include the issue type, issue numer and title",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.jira.com/*"
+      ],
+      "js": [
+        "mutation-summary.js",
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab", "contextMenus"
+  ]
+}
