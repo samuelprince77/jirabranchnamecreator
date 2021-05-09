@@ -1,7 +1,7 @@
 const BUG = "Bug"
 const BUG_FIX = "bugfix"
-const IMPROVEMENT = "Improvement"
 const FEATURE = "feature"
+const IMPROVEMENT = "Improvement"
 const NEW_FEATURE = "New feature"
 const TASK = "task"
 
